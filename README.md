@@ -1,4 +1,4 @@
-Console Component
+Console Component [![Build Status](https://travis-ci.org/haru01/Console.svg)](https://travis-ci.org/haru01/Console)
 =================
 
 Console eases the creation of beautiful and testable command line interfaces.
