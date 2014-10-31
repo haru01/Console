@@ -7,6 +7,8 @@ script:
   - phpunit
 
 notifications:
+  webhooks:
+    - url: https://idobata.io/hook/circle_ci/0dc171ee-8076-4075-8794-8ec91f995743
   emails:
     - eiji.ienaga@gmail.com
   on_success: always # default: change
