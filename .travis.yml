@@ -8,7 +8,7 @@ script:
 
 notifications:
   webhooks:
-    - url: https://idobata.io/hook/circle_ci/0dc171ee-8076-4075-8794-8ec91f995743
+    - https://idobata.io/hook/travis_ci/242b888b-2a15-444f-ae43-efa8dada9f9d
   emails:
     - eiji.ienaga@gmail.com
   on_success: always # default: change
