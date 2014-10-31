@@ -9,7 +9,5 @@ script:
 notifications:
   webhooks:
     - https://idobata.io/hook/travis_ci/242b888b-2a15-444f-ae43-efa8dada9f9d
-  emails:
-    - eiji.ienaga@gmail.com
   on_success: always # default: change
   on_failure: always
