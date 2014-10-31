@@ -2,10 +2,12 @@ language: php
 php:
   - "5.4"
 before_script:
-  - php composer.phar install
+  - composer install
 script:
   - phpunit
 
 notifications:
+  emails:
+    - eiji.ienaga@gmail.com
   on_success: always # default: change
   on_failure: always
